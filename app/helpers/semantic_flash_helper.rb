@@ -1,5 +1,5 @@
 module SemanticFlashHelper
-  ALERT_TYPES = [:error, :info, :success, :warning]
+  ALERT_TYPES = [:error, :info, :success, :warning, :alert]
 
   def semantic_flash
     output = ''
